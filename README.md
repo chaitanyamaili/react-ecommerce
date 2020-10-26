@@ -2,11 +2,17 @@
 TBD
 
 ## Inspirations:
-- DOcker setup
- - https://medium.com/@tiangolo/react-in-docker-with-nginx-built-with-multi-stage-docker-builds-including-testing-8cc49d6ec305
-- React tutotial
- - Link1
- - Link2
+- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Docker setup](https://medium.com/@tiangolo/react-in-docker-with-nginx-built-with-multi-stage-docker-builds-including-testing-8cc49d6ec305)
+- [React tutotial](link1)
+
+## Docker commands
+- To build the docker image
+### `docker build -t my-ecom-app .`
+- To delete docker image
+### `docker rmi my-ecom-app --force`
+- To run the docker and see the result
+### `docker run -p 80:80 my-ecom-app`
 
 ## Available Scripts
 
