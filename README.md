@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# my-ecom-app
+TBD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspirations:
+- DOcker setup
+ - https://medium.com/@tiangolo/react-in-docker-with-nginx-built-with-multi-stage-docker-builds-including-testing-8cc49d6ec305
+- React tutotial
+ - Link1
+ - Link2
 
 ## Available Scripts
 
