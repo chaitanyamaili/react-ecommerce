@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.png';
+import classes from './App.module.css';
+import ProductData from './ProductData';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <nav className={classes.TopBar}>
+          <img src={logo} alt="LS Clothing" title="LS Clothing" />
+        </nav>
       </header>
+
+      <div className={classes.MainContainer}>
+        <div className={classes.ProductPreview}>
+          <img src="https://images-na.ssl-images-amazon.com/images/I/61DuuKWZRSL._SX679_.jpg" alt="Product preview" />
+        </div>
+
+        <div className={classes.ProductData}>
+          <h1 className={classes.ProductTitle}>{ProductData.title}</h1>
+        </div>
+      </div>
     </div>
   );
 }

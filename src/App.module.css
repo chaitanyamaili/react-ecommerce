@@ -1,0 +1,39 @@
+.TopBar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #282c34;
+  padding: 24px 48px 11px;
+  text-align: center;
+}
+
+.TopBar > img {
+  width: 100px;
+}
+
+.MainContainer {
+  padding: 4% 12%;
+  margin-top: 32px;
+  box-sizing: border-box;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ProductPreview {
+  width: 50%;
+}
+
+.ProductPreview > img {
+  width: 100%;
+}
+
+.ProductData {
+  width: 50%;
+}
+
+.ProductTitle {
+  font-family: "Source Sans Pro", sans-serif;
+}
